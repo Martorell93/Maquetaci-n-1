@@ -1,0 +1,105 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30% 35%;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.indice button {
+    border: 2px solid purple;
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 10px;
+    width: 150px;
+    height: 80px;
+    background-color: azure;
+    margin: 1%;
+}
+
+#datos_personales {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: space-around;
+    width: 70%;
+    padding-top: 7%;
+    position: absolute;
+    margin-right:0%;
+    padding-right: 0%;
+}
+
+#lista_datos {
+    list-style: none;
+    line-height: 50px;
+}
+
+#descripción {
+    width: 50%;    
+}
+
+#imagen img {
+    width: 20%;
+    height: 30%;
+    margin-left: 50%;
+    margin-bottom: 0%;
+    position: sticky;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+#aficiones {
+    width: 100%;
+    height: 70%;
+    margin-top: 300px;
+    background-color: purple;
+}
+
+#aficiones li {
+    display: flex;
+    flex-flow: row wrap-reverse; 
+    justify-items: space-around;
+    align-items: space-around;
+    padding: 100px;
+}
+
+.datos {
+    margin-top: 50%;
+    padding-bottom: 6%;
+    width: 20%;
+    height: 30%;
+    margin-left: 45%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.datos label{
+    font-size: 180%;
+}
+
+.datos input {
+    border: transparent 1px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 2%;
+    text-decoration: none;
+    margin: 2%;
+    color: blueviolet;
+    font-size: 180%;
+}

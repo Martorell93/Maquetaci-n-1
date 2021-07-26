@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CV.css">
+    <title>Aficiones</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="indice">
+            <button onclick="location.href='#formulario'">Formulario de contacto</button>
+            <button onclick="location.href='CV.html'">Volver al CV</button>
+            </nav>
+        </header>
+        <div id="aficiones">
+            <ul>Aficiones
+                <li>Tenis</li>
+                <li>Viajar</li>
+                <li>Leer</li>
+                <li>Fútbol</li>
+            </ul>
+        </div>
+        <form method="" action="" id="formulario">
+            <fieldset class="datos">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="inputNombre" id="nombre">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="inputApellidos" id="apellidos">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="inputEmail" id="email">
+                <label for="tlf">Número de telefono:</label>
+                <input type="number" name="inputTlf" id="tlf">
+                <input type="button" onclick="alert('Información enviada correctamente')" value="Enviar Información">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
