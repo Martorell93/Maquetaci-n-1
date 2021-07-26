@@ -1,12 +1,40 @@
+* {
+    background-color: black;
+    color: white;
+}
+
 .listas {
     display: flex;
     flex-flow: row wrap;
-    justify-items: space-around;
+    justify-content: space-around;
     align-items: center;
+    padding: 2px;
 }
+
 #películas,#canciones,#personajes {
-    text-align: center;
+    text-align:inherit;
+    color: wheat;
+    border: solid 2px grey;
+    border-radius: 4px;
 }
+
 li {
     text-align: start;
+    font-style: normal;
+    font-weight: 100;
+}
+
+ul[id="personajes"], ul[id="películas"] {
+    font-style: italic;
+    margin: 1%;
+}
+
+ul[id="canciones"] {
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
 }
