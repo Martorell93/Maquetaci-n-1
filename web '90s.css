@@ -1,0 +1,12 @@
+.listas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: space-around;
+    align-items: center;
+}
+#películas,#canciones,#personajes {
+    text-align: center;
+}
+li {
+    text-align: start;
+}
